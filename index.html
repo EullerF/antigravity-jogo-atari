@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio Pessoal de Euller Ferreira">
+    <title>Euller Ferreira | Portfólio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#inicio" class="logo">EF.</a>
+        <ul class="nav-links">
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+        </ul>
+    </nav>
+
+    <header id="inicio" class="hero">
+        <div class="hero-content fade-in">
+            <h1 class="title">Euller Ferreira</h1>
+            <h2 class="subtitle">Desenvolvedor de Software</h2>
+            <p class="tagline">Transformando ideias em código, uma linha por vez. Criando interfaces modernas e sistemas escaláveis.</p>
+            <a href="#projetos" class="btn">Ver Projetos</a>
+        </div>
+    </header>
+
+    <main>
+        <section id="sobre" class="section fade-in">
+            <div class="container">
+                <h2 class="section-title">Sobre mim</h2>
+                <p class="about-text">
+                    Sou um desenvolvedor apaixonado por tecnologia e resolução de problemas. 
+                    Sempre em busca de construir aplicações eficientes, limpas e escaláveis. 
+                    Tenho um forte interesse em explorar novas ferramentas e criar experiências de usuário incríveis através de um código bem estruturado e focado na performance e em boas práticas.
+                </p>
+            </div>
+        </section>
+
+        <section id="habilidades" class="section fade-in">
+            <div class="container">
+                <h2 class="section-title">Habilidades</h2>
+                <div class="skills-grid">
+                    <span class="skill-badge">HTML5</span>
+                    <span class="skill-badge">CSS3</span>
+                    <span class="skill-badge">JavaScript</span>
+                    <span class="skill-badge">Python</span>
+                    <span class="skill-badge">Git & GitHub</span>
+                    <span class="skill-badge">UI/UX Design</span>
+                    <span class="skill-badge">Lógica de Programação</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="projetos" class="section fade-in">
+            <div class="container">
+                <h2 class="section-title">Projetos</h2>
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <div class="card-content">
+                            <h3 class="project-title">Sistema de Gestão</h3>
+                            <p class="project-desc">Uma aplicação web focada em otimizar o fluxo de tarefas diárias com uma interface intuitiva, responsiva e focada em produtividade.</p>
+                            <button class="btn btn-outline" onclick="showDetails('Sistema de Gestão')">Ver mais</button>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <div class="card-content">
+                            <h3 class="project-title">Jogo Arcade 2D</h3>
+                            <p class="project-desc">Um jogo no estilo clássico desenvolvido em Python, contendo mecânicas de colisão precisa, sistema de pontuação e inteligência de inimigos.</p>
+                            <button class="btn btn-outline" onclick="showDetails('Jogo Arcade 2D')">Ver mais</button>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <div class="card-content">
+                            <h3 class="project-title">API de Integração</h3>
+                            <p class="project-desc">Desenvolvimento de uma API RESTful robusta, com documentação clara, para conectar múltiplos serviços em tempo real de forma segura.</p>
+                            <button class="btn btn-outline" onclick="showDetails('API de Integração')">Ver mais</button>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>Conecte-se comigo:</p>
+            <div class="social-links">
+                <a href="https://github.com/EullerF" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="#" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </div>
+            <p class="copyright">&copy; 2026 Euller Ferreira. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
